@@ -52,31 +52,5 @@
 
 # pip install vosk-0.3.47-py3-none-any.whl
 
-# C / C++ / C#
 
-# Download the vosk-ucrt64-artifacts.zip from Releases.
-
-# 
-
-# Link against libvosk.dll and include headers from /include.
-
-# 
-
-# Acknowledgments
-
-# Original core logic and models by:
-
-# 
-
-# Alphacephei (Vosk-API)
-
-# 
-
-# Kaldi ASR contributors
-
-# 
-
-# License
-
-# Distributed under the Apache License 2.0.
 
