@@ -1,32 +1,22 @@
 # Vosk-UCRT64 Portable Distribution
 
-Professional binary distribution of **Vosk-API** optimized for **Windows UCRT64** environments.
+Professional binary distribution of **Vosk-API** optimized for **Windows UCRT64**.
 
-## Overview
-Portable build for developers using **MSYS2 UCRT64** toolchain or seeking a dependency-free deployment on Windows 10/11.
 
-## Key Features
-* **Portable:** Works without a full MSYS2 installation.
-* **C-SDK:** Headers and DLLs included for C/C++/C# integration.
-* **Python Ready:** Pre-compiled `.whl` package available in Releases.
+## Supported Languages
+* **Python**: Via pre-compiled wheel.
+* **C/C++**: Native headers and shared libraries.
+* **.NET Sharp**: Support for .NET 10+ (XXL).
 
-## Project Structure
-* `/bin` ― Shared libraries (available in Releases).
-* `/include`` ― C/C++ Header files.
-* `/python` — Python-specific instructions.
-* `/samples` — Usage examples.
 
 ## Installation
+### .NET Sharp (X64)
+1. Download `vosk-win-ucrt64-v0.1.0-alpha.zip` from Releases.
+2. Place libvosk.dll in your project root.
+3. Use `samples/test_simple.csprok` as a reference for auto-copying DLLs.
 
 ### Python
-Download `vosk-0.3.47-py3-none-any.whl` from Releases and install:
-
-```bash
-pip install vosk-0.3.47-py3-none-any.whl`
-```J
-### C / C++ / C#
-1. Download `vosk-win-ucrt64-v0.1.0-alpha.zip` from Releases.
-2. Link against `libvosk.dll` and include headers from `/include`.
+pip install vosk-0.3.47-py3-none-any.whlb
 
 ## License
-Distributed under the Apache License 2.0.
+Apache License 2.0
